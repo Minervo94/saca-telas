@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
      <div> 
-      <h1 className="text-6xl font-bold text-right text-red-500 ">Saca Telas</h1>
+      <h1 className="text-6xl font-bold text-center text-red-500 ">Saca Telas</h1>
       <p className="text-2xl text-center">by Minervo</p>
 
       {/* Formulario de Contacto       */}
@@ -14,6 +14,7 @@ export default function Home() {
         <textarea className="border-2 border-gray-300 p-2 m-2 rounded-lg" placeholder="Mensaje" />
         <button className="border-2 border-gray-300 p-2 m-2 rounded-lg" type="submit">Enviar</button>
       </form>
+      <img className="rounded-lg " src="img/capibarotanene.png" alt="" />
 
       
     </div>
